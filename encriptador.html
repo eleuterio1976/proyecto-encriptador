@@ -7,47 +7,66 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <!--link rel="stylesheet" href="style.css"-->
-  <link href="Css/Principal.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/normalice.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-XXXXXX" crossorigin="anonymous" />
+    <link href="Css/Principal.css" rel="stylesheet" />
 
-   <!-- Bootstrap Core CSS -->
- <link href="bower_components/bootstrap/bootstrap.min.css" rel="stylesheet" />
- <!-- MetisMenu CSS -->
-<link href="bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet"/>
-<!-- Custom CSS -->
-<link href="dist/css/sb-admin-2.css" rel="stylesheet"/>
-
-<!-- Custom Fonts -->
-<link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <!-- Bootstrap Core CSS -->
+  <link href="bower_components/bootstrap/bootstrap.min.css" rel="stylesheet" />
+  <!-- MetisMenu CSS -->
+ <link href="bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet"/>
+ <!-- Custom CSS -->
+ <link href="dist/css/sb-admin-2.css" rel="stylesheet"/>
+ 
+ <!-- Custom Fonts -->
+ <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 
   
 </head>
+<body>
 <div class="container">
-  <div class="row">
+  <header>
+    <h1 class="titulo">Código secreto</h1> 
+    <img src="img/Logo.png" alt="">
+  </header>
+  
  
-  <h1 class="titulo">Código secreto</h1>
+  
 
-   
+  <section> 
     <!--section class="form box"-->
     <div class="panel-body">
-      <form action="">
+      
         <label for="input-texto">Solo letras minúsculas, sin acento</label>
         <div class="form-group">          
-        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+        <!--input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui"-->
+        <textarea class="cuadroTexto" name="input-texto" id="input-texto" placeholder="Ingrese el Texto Aqui"></textarea>
+        
       </div>
-      <div class="form-group"> 
-        <input class="btn btn-lg btn-danger " type="button" value="Cifrar" id="btn-encriptar">
-        <input class="btn btn-lg btn-success " type="button" value="Descifrar" id="btn-desencriptar">
+      <div class="botones"> 
+        <input  class="btn btn-lg btn-success"  type="button" value="Cifrar" id="btn-encriptar">
+        <input  class="btn btn-lg btn-success"  type="button" value="Descifrar" id="btn-desencriptar">
         </div>
-      </form>
-      </div>
+       
+      
    <!-- </section>-->
-  
-     
-      <h2 id="">Mensaje encriptada:</h2>
-      <div class="form-group">
-      <input class="text-input-salida" type="text" id="msg">
+  </section> 
+  <aside>
+    <img class="muneco" src="img/Muneco.png" alt="Muñeco">
+    <!--input class="text-input-salida" type="text" id="msg"-->
+    <textarea class="text-input-salida" name="input-texto" id="msg" placeholder=" "></textarea>
       <input class="btn btn-lg btn-warning  " type="button" value="copiar" id="btn-copy">
-    </div>
+</aside>
+     
+<footer class="footer">
+  <ul class="social-icons">
+      <a href="https://www.linkedin.com/in/alba-nelly-estrada-cadena-1707306b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+  </ul>
+  <p>Alba Estrada Cadena</p>
+</footer>
+
     
    
 
@@ -57,5 +76,5 @@
   
  
 </div>
-</div>
+</body>
 </html>
