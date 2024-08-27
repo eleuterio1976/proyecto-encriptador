@@ -1,0 +1,27 @@
+﻿ #msgerror {
+            font-size:x-small;
+            color:red;
+
+        }
+
+.CambiarDueno{ cursor: pointer; color: #000; }
+.CambiarInv{ cursor: pointer; color: #000; }
+.CambiarEfe{ cursor: pointer; color: #000; }
+.CambiarUltRes{ cursor: pointer; color: #000; }
+.Volver { cursor: pointer; color: #000; }
+.CambiarEje { cursor: pointer; color: #000; }
+.CambTipo {
+    cursor: pointer;
+    color: #000;
+}
+
+.Reset { cursor: pointer; color: #000; }
+.NoIcam { cursor: pointer; color: #000; }
+.SiIcam { cursor: pointer; color: #000; }
+
+
+.CambiaEjecutor{ cursor: pointer; color: #000; }
+
+.CrearB{ cursor: pointer; color: #000; }
+.ActivaB{ cursor: pointer; color: #000; }
+.DesactivarB{ cursor: pointer; color: #000; }

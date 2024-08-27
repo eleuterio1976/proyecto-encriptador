@@ -1,0 +1,165 @@
+﻿/*#tabla{	border: solid 1px #333;	width: 300px; }
+#tabla tbody tr{ background: #999; }*/
+.fila-base{ display: none; } /* fila base oculta */
+.fila-base2{ display: none; } /* fila base oculta */
+.fila-base3{ display: none; } /* fila base oculta */
+.fila-base4{ display: none; } /* fila base oculta */
+.eliminar{ cursor: pointer; color: #000; }
+.ver{ cursor: pointer; color: #000; }
+.mod{ cursor: pointer; color: #000; }
+
+
+.modAccion{ cursor: pointer; color: #000; }
+
+
+.error {
+    color: #f00;
+   }
+.Normal {
+    color: #000;
+
+}
+.Mayor {
+    background-color:#FF7F50;
+    color: #000;
+
+}
+
+
+
+
+
+
+.form-control_1 {
+  /*display: block;*/
+  width: 20%;
+  height: 30px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-control_2 {
+  /*display: block;*/
+  width: 70%;
+  height: 30px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  /*color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;*/
+}
+.form-control_11 {
+  /*display: block;*/
+  width: 35%;
+  height: 30px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-control_111 {
+  /*display: block;*/
+  width: 30%;
+  height: 30px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.btn-Enviar {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+
+#divPropiedad {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 30%;
+    z-index: 1001;
+}
+
+.Contenido-PopUpPropiedad{
+    margin:0px auto;
+    margin-top:120px;
+    margin-left:300px;
+    position:relative;
+    padding:10px;
+    width:25%;
+    min-height:250px;
+    background-color:#E5E5E5;
+    /*background-color:#b5b5b5;*/
+    /*background-color:#c0c0c0;*/
+    
+}
+
+.CerrarPopUpPropiedad {
+    position: absolute;
+    right: 15px;
+}
+
+#divAmbiente {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 30%;
+    z-index: 1001;
+}
+
+.Contenido-PopUpAmbiente{
+    margin:0px auto;
+    margin-top:120px;
+    margin-left:300px;
+    position:relative;
+    padding:10px;
+    width:25%;
+    min-height:250px;
+    background-color:#E5E5E5;
+    /*background-color:#b5b5b5;*/
+    /*background-color:#c0c0c0;*/
+    
+}
+ 
+.CerrarPopUpAmbiente {
+    position: absolute;
+    right: 15px;
+}

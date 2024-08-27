@@ -1,0 +1,147 @@
+﻿/*#container {
+    width:100%;
+     text-align:center;
+}
+
+#left {
+    float:left;
+    width:33%;
+}
+
+#center {
+    display: inline-block;
+    margin:0 auto;
+    width:33%;
+}
+
+#right {
+    float:right;
+    width:33%;
+}*/
+
+#contenedor {
+    width:100%;
+     text-align:center;
+}
+
+#izq {
+    float:left;
+    width:50%;
+}
+
+#der {
+    float:right;
+    width:50%;
+}
+
+
+
+.container {
+    width:100%;
+     text-align:center;
+}
+
+.left {
+    float:left;
+    width:33%;
+}
+
+.center {
+    display: inline-block;
+    margin:0 auto;
+    width:33%;
+}
+
+.right {
+    float:right;
+    width:33%;
+}
+
+
+.CuadroResumen {
+    width:100%;
+     text-align:center;
+}
+
+.CuadroIzq {
+    float:left;
+    width:50%;
+}
+
+.CuadroDer {
+    float:right;
+    width:50%;
+}
+
+
+
+.DivInfoArriba {
+    width:100%;
+     text-align:left;
+}
+
+.DivBotonesArriba {
+    width:100%;
+     text-align:center;
+}
+
+.DivBotonesIzq {
+    float:left;
+    width:55%;
+}
+
+.DivBotonesCentro {
+    display: inline-block;
+    margin:0 auto;
+    width:25%;
+}
+
+.DivBotonesDer {
+    float:right;
+    width:20%;
+}
+
+
+
+.Black-tooltip + .tooltip > .tooltip-inner {background-color: #000000; font-size:small; font-weight:bolder}
+
+.red-tooltip + .tooltip > .tooltip-inner {background-color: #e50000; font-size:small; font-weight:bolder}
+
+.verde-tooltip + .tooltip > .tooltip-inner {background-color: #00b200; font-size:small; font-weight:bolder}
+/*
+li {
+  list-style: none;
+  position: relative;
+}
+li a > img {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: -100px;
+}
+li a:hover > img {
+  display: block;
+}
+
+*/
+
+
+a > img {
+  display: none;
+  position: absolute;
+  top: -15px;
+  left: 30%;
+}
+a:hover > img {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+

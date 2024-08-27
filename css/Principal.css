@@ -1,0 +1,27 @@
+﻿
+#divCambioContrasena {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+}
+
+.Contenido-PopUpCambioContrasena {
+    margin:0px auto;
+    margin-top:250px;
+    margin-left:450px;
+    position:relative;
+    padding:10px;
+    width:550px;
+    min-height:250px;
+    /*background-color:#c9c9c6;*/
+    /*background-color:#b5b5b5;*/
+    background-color:#ececec;
+    
+}
+
+.CerrarPopUpCambioContrasena {
+    position: absolute;
+    right: 15px;
+}
